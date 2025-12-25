@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS测试</title>
+</head>
+<body>
+<h1>欢迎来到css测试器，使用你毕生所学的css来美化这个输入框</h1>
+<textarea rows="10" cols="50" readonly>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS测试</title>
+    <style>
+        .your_css {
+
+    </textarea>
+<br>
+<form method="POST" action="/write">
+    <label for="textField">输入你的css内容：</label>
+    <textarea id="textField" name="content" rows="5" cols="40"></textarea>
+    <input type="hidden" name="token" value="<%= token %>">
+    <input type="submit" value="提交">
+</form>
+<br>
+<textarea rows="10" cols="50" readonly>
+        }
+    </style>
+</head>
+<body>
+<input class="your_css" type="text" name="this_is_input">
+<input type="hidden" name="user_name" value="<%= token %>">
+</body>
+</html>
+    </textarea>
+</body>
+</html>
+
+
+
+
+
+
